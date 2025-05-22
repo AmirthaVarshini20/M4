@@ -3,13 +3,13 @@
 Write a C program to perform the basic left and right shift operation.  
 
 ## ALGORITHM
-
+```
 1.Start the program.
 2.Input an integer value from the user and store it in variable a.
 3.Perform a left shift operation on a by 2 bits (a << 2) and display the result.
 4.Perform a right shift operation on a by 2 bits (a >> 2) and display the result.
 5.End the program.
-
+```
 ## PROGRAM
 ```
 #include<stdio.h>
