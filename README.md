@@ -11,7 +11,7 @@ Write a C program to perform the basic left and right shift operation.
 5.End the program.
 
 ## PROGRAM
-'''
+```
 #include<stdio.h>
 int main()
 {
@@ -21,7 +21,7 @@ int main()
     printf("After Right Shift Operation value of a is:%d\n",a>>2);
     return 0;
 }
-'''
+```
 ## OUTPUT
 
 ![image](https://github.com/user-attachments/assets/034eb037-4077-428d-a7d3-5cb699da5ccf)
@@ -53,7 +53,7 @@ Write a C Program to check whether the two numbers are equal or not using simple
 5.	Stop the program.
 
 ## PROGRAM
-'''
+```
 #include <stdio.h>
 
 int main()
@@ -75,7 +75,7 @@ int main()
 
     return 0;
 }
-'''
+```
 
 ## OUTPUT
 
@@ -101,7 +101,7 @@ Write a C Program to convert the given string into lowercase.
 5.	Stop the program.
 
 ## PROGRAM
-'''
+```
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -124,7 +124,7 @@ int main() {
 
     return 0;
 }
-'''
+```
 
 ## OUTPUT
 
@@ -151,7 +151,7 @@ Write a C Program to count the total number of words in a given string using for
 5.Print count and end the program.
 
 ## PROGRAM
-'''
+```
 #include<stdio.h>
 int main()
 {
@@ -165,7 +165,7 @@ int main()
     }
     printf("%d",count);
 }
-'''
+```
 
 ## OUTPUT
 
@@ -193,7 +193,7 @@ write a Program to compare two strings without using strcmp().
 
 
 ## PROGRAM
-'''
+```
 #include <stdio.h>
 #include<string.h>
 int main() {
@@ -225,7 +225,7 @@ int main() {
 
     return 0;
 }
-'''
+```
 
 ## OUTPUT
  
