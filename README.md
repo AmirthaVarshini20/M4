@@ -196,7 +196,7 @@ Step 8: End the program.
   printf("Enter the first string: ");
     scanf(" %[^\n]", c1); 
     printf("Enter the second string: ");
-    scanf(" %s", c2); 
+    scanf(" %[^\n]", c2); 
     while (c1[i] != '\0' && c2[i] != '\0') {
         if (c1[i] != c2[i]) {
             flag = 1;
@@ -213,8 +213,10 @@ Step 8: End the program.
  }
  ```
 ## OUTPUT
- 
-![image](https://github.com/user-attachments/assets/578bcff6-1010-4259-9854-7aa673895e59)
+ ![image](https://github.com/user-attachments/assets/bd4548b4-a1bf-4597-8d13-594960f87522)
+![image](https://github.com/user-attachments/assets/d3daade8-fded-41a1-9f03-2b6af6bcc12c)
+![image](https://github.com/user-attachments/assets/7c255303-5d53-4463-9cb7-96b97e395144)
+
 
 ## RESULT
 Thus the C Program to compare two strings without using strcmp() has been executed successfully.
